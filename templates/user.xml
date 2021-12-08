@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="pfc" value="public function __construct($DEPENDENCY$) {&#10;&#10;}" description="class constructor" toReformat="false" toShortenFQNames="true">
+    <variable name="DEPENDENCY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

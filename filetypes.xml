@@ -1,9 +1,10 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="sqlite" type="PLAIN_TEXT" />
-      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
-      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <mapping pattern="typo3" type="PLAIN_TEXT" />
+      <mapping ext="woff" type="PLAIN_TEXT" />
+      <mapping ext="eot" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
     </extensionMap>
   </component>
 </application>

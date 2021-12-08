@@ -1,0 +1,13 @@
+<templateSet group="PHP">
+  <template name="classdb" value="$this-&gt;_wpdb-&gt;get_results(&#10;    $this-&gt;_wpdb-&gt;prepare(&#10;        '',&#10;        $params&#10;    )&#10;);" description="class based wpdb" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="trdiv" value="&lt;div class=&quot;container-fluid&quot;&gt;&#10;&#10;&#9;&lt;div class=&quot;row&quot;&gt;&#10;&#10;&#9;&#9;&lt;div class=&quot;col-sm-7 col-xl-7&quot;&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;trpanel small-text&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;div class=&quot;trpanel-header&quot; id=&quot;&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;i class=&quot;fa fa-bookmark&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&#10;&#9;&#9;&#9;&#9;&#9;TITLE&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&#9;&lt;div class=&quot;trpanel-body&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&lt;div class=&quot;row&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;&lt;/div&gt;&#10;&#9;&#10;&lt;/div&gt;" description="Scaffold for basic oracle page" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
