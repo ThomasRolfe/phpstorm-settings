@@ -4,9 +4,11 @@
       <mapping pattern="typo3" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
-      <removed_mapping ext="csv" type="CSV/TSV" />
-      <removed_mapping ext="tsv" type="CSV/TSV" />
+      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
+      <mapping ext="csv" type="CSV" />
+      <mapping ext="tsv" type="TSV" />
     </extensionMap>
   </component>
 </application>
