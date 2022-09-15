@@ -12,7 +12,6 @@
   <component name="StatusBar">
     <option name="widgets">
       <map>
-        <entry key="CwmWireStatsWidgetFactory" value="false" />
         <entry key="Encoding" value="false" />
         <entry key="GridPosition" value="false" />
         <entry key="InsertOverwrite" value="false" />
